@@ -51,4 +51,8 @@ export class AppComponent {
     }
     this.password = generatedPassword;
   }
+
+  onCopyClick() {
+    alert('Password copied to clipboard');
+  }
 }
